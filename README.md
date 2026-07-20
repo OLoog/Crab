@@ -98,8 +98,5 @@
     💡 Verify with <code style="background:#161b22; padding:4px 10px; border-radius:6px; font-size:0.9em;">CertUtil -hashfile Carb.exe SHA256</code> (Windows) or <code style="background:#161b22; padding:4px 10px; border-radius:6px; font-size:0.9em;">sha256sum Carb.exe</code> (Linux)
   </p>
 </div>
-## 🎯 **TARGET**
-
-<p align="center">
-  <img width="678" height="452" alt="target" src="https://github.com/user-attachments/assets/228ba652-b030-4e4c-9d4b-078dfdf89c1d" />
-</p>
+## 🎯 **Target**
+<img width="678" height="452" alt="target" src="https://github.com/user-attachments/assets/040d39ec-cc2b-4dd4-a45c-6bc298e9de32" />
