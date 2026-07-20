@@ -22,54 +22,50 @@
 
  🦀
 <img width="576" height="462" alt="burningyourmom" src="https://github.com/user-attachments/assets/60a548ae-7831-4db3-acae-5ed00a88d8a3" />
-<!-- Task Manager – Resource Overload (t = 2.5s) -->
-<table align="center">
-  <thead>
-    <tr>
-      <th>Resource</th>
-      <th>Usage</th>
-      <th>Status</th>
-      <th>Bar</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong>CPU</strong></td>
-      <td>100%</td>
-      <td><span style="color:#e74c3c;">🔴 MAX</span></td>
-      <td><span style="background:#e74c3c; display:inline-block; width:100%; height:20px; border-radius:4px;"></span></td>
-    </tr>
-    <tr style="background:#f6f8fa;">
-      <td><strong>RAM (Physical)</strong></td>
-      <td>15.8 / 16 GB</td>
-      <td><span style="color:#e74c3c;">🔴 FULL</span></td>
-      <td><span style="background:#e74c3c; display:inline-block; width:99%; height:20px; border-radius:4px;"></span></td>
-    </tr>
-    <tr>
-      <td><strong>RAM (Pagefile)</strong></td>
-      <td>72.0 / 80 GB</td>
-      <td><span style="color:#e74c3c;">🔴 CRIT</span></td>
-      <td><span style="background:#e74c3c; display:inline-block; width:90%; height:20px; border-radius:4px;"></span></td>
-    </tr>
-    <tr style="background:#f6f8fa;">
-      <td><strong>GPU</strong></td>
-      <td>98%</td>
-      <td><span style="color:#f39c12;">🟡 NEAR</span></td>
-      <td><span style="background:#f39c12; display:inline-block; width:98%; height:20px; border-radius:4px;"></span></td>
-    </tr>
-    <tr>
-      <td><strong>Disk I/O</strong></td>
-      <td>100%</td>
-      <td><span style="color:#e74c3c;">🔴 BUSY</span></td>
-      <td><span style="background:#e74c3c; display:inline-block; width:100%; height:20px; border-radius:4px;"></span></td>
-    </tr>
-  </tbody>
-</table>
-
-<p align="center"><em>⚡ Simulated for research — actual values depend on hardware.</em></p>
-      <td><code>26c4cfb4b689af68b71ff273c9eb11e15d6959f92317e1a19fdb84be08f2a41c</code></td>
-    </tr>
-  </tbody>
-</table>
-
-> 💡 **Tip:** Use `CertUtil -hashfile Carb.exe SHA256` (Windows) or `sha256sum Carb.exe` (Linux) to verify the hash locally.
+<!-- 🔥 CARB – RESOURCE OVERLOAD DASHBOARD (Full Width) -->
+<div align="center">
+  <h2>🔥 Resource Overload – Peak (t = 2.5s)</h2>
+  <table style="width:100%; max-width:900px; border-collapse:collapse; font-size:1.3em; background-color:#0d1117; color:#c9d1d9; border-radius:12px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,0.8);">
+    <thead>
+      <tr style="background-color:#161b22; border-bottom:2px solid #30363d;">
+        <th style="padding:16px 12px; text-align:left; font-size:1.1em; color:#f0f6fc;">Resource</th>
+        <th style="padding:16px 12px; text-align:center; font-size:1.1em; color:#f0f6fc;">Usage</th>
+        <th style="padding:16px 12px; text-align:center; font-size:1.1em; color:#f0f6fc;">Status</th>
+        <th style="padding:16px 12px; text-align:left; font-size:1.1em; color:#f0f6fc;">Bar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #21262d;">
+        <td style="padding:18px 12px; font-weight:bold; font-size:1.2em;">🚀 CPU</td>
+        <td style="padding:18px 12px; text-align:center; font-weight:bold; font-size:1.3em; color:#ff7b72;">100%</td>
+        <td style="padding:18px 12px; text-align:center; font-weight:bold; font-size:1.1em; color:#ff7b72;">🔴 MAX</td>
+        <td style="padding:18px 12px;"><span style="display:block; background:#ff7b72; width:100%; height:28px; border-radius:6px;"></span></td>
+      </tr>
+      <tr style="border-bottom:1px solid #21262d; background-color:#161b22;">
+        <td style="padding:18px 12px; font-weight:bold; font-size:1.2em;">🧠 RAM (Physical)</td>
+        <td style="padding:18px 12px; text-align:center; font-weight:bold; font-size:1.3em; color:#ff7b72;">15.8 / 16 GB</td>
+        <td style="padding:18px 12px; text-align:center; font-weight:bold; font-size:1.1em; color:#ff7b72;">🔴 FULL</td>
+        <td style="padding:18px 12px;"><span style="display:block; background:#ff7b72; width:99%; height:28px; border-radius:6px;"></span></td>
+      </tr>
+      <tr style="border-bottom:1px solid #21262d;">
+        <td style="padding:18px 12px; font-weight:bold; font-size:1.2em;">💾 RAM (Pagefile)</td>
+        <td style="padding:18px 12px; text-align:center; font-weight:bold; font-size:1.3em; color:#ff7b72;">72.0 / 80 GB</td>
+        <td style="padding:18px 12px; text-align:center; font-weight:bold; font-size:1.1em; color:#ff7b72;">🔴 CRIT</td>
+        <td style="padding:18px 12px;"><span style="display:block; background:#ff7b72; width:90%; height:28px; border-radius:6px;"></span></td>
+      </tr>
+      <tr style="border-bottom:1px solid #21262d; background-color:#161b22;">
+        <td style="padding:18px 12px; font-weight:bold; font-size:1.2em;">🎮 GPU</td>
+        <td style="padding:18px 12px; text-align:center; font-weight:bold; font-size:1.3em; color:#f0883e;">98%</td>
+        <td style="padding:18px 12px; text-align:center; font-weight:bold; font-size:1.1em; color:#f0883e;">🟡 NEAR</td>
+        <td style="padding:18px 12px;"><span style="display:block; background:#f0883e; width:98%; height:28px; border-radius:6px;"></span></td>
+      </tr>
+      <tr>
+        <td style="padding:18px 12px; font-weight:bold; font-size:1.2em;">💿 Disk I/O</td>
+        <td style="padding:18px 12px; text-align:center; font-weight:bold; font-size:1.3em; color:#ff7b72;">100%</td>
+        <td style="padding:18px 12px; text-align:center; font-weight:bold; font-size:1.1em; color:#ff7b72;">🔴 BUSY</td>
+        <td style="padding:18px 12px;"><span style="display:block; background:#ff7b72; width:100%; height:28px; border-radius:6px;"></span></td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.95em; color:#8b949e; margin-top:12px;"><em>⚡ Simulated dashboard – hardware results may vary.</em></p>
+</div>
