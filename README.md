@@ -69,3 +69,32 @@
   </table>
   <p style="font-size:0.95em; color:#8b949e; margin-top:12px;"><em>⚡ Simulated dashboard – hardware results may vary.</em></p>
 </div>
+<!-- 🔐 Carb – File Hashes -->
+<div align="center">
+  <h2>🔐 File Hashes – Carb.exe</h2>
+  <table style="width:100%; max-width:900px; border-collapse:collapse; font-size:1.1em; background-color:#0d1117; color:#c9d1d9; border-radius:12px; overflow:hidden; box-shadow:0 8px 24px rgba(0,0,0,0.8);">
+    <thead>
+      <tr style="background-color:#161b22; border-bottom:2px solid #30363d;">
+        <th style="padding:16px 12px; text-align:left; font-size:1.1em; color:#f0f6fc; width:30%;">Algorithm</th>
+        <th style="padding:16px 12px; text-align:left; font-size:1.1em; color:#f0f6fc;">Hash (Lowercase)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="border-bottom:1px solid #21262d;">
+        <td style="padding:18px 12px; font-weight:bold; font-size:1.1em;">🖥️ MD5</td>
+        <td style="padding:18px 12px; font-family: 'Courier New', monospace; word-break:break-all; font-size:0.95em;">d3eeec515c96cc5229fc4a1dc53eef7a</td>
+      </tr>
+      <tr style="border-bottom:1px solid #21262d; background-color:#161b22;">
+        <td style="padding:18px 12px; font-weight:bold; font-size:1.1em;">🔑 SHA‑1</td>
+        <td style="padding:18px 12px; font-family: 'Courier New', monospace; word-break:break-all; font-size:0.95em;">48b1bf84b31072f21a7ca57943911df11fd65e7a</td>
+      </tr>
+      <tr>
+        <td style="padding:18px 12px; font-weight:bold; font-size:1.1em;">🛡️ SHA‑256</td>
+        <td style="padding:18px 12px; font-family: 'Courier New', monospace; word-break:break-all; font-size:0.95em;">26c4cfb4b689af68b71ff273c9eb11e15d6959f92317e1a19fdb84be08f2a41c</td>
+      </tr>
+    </tbody>
+  </table>
+  <p style="font-size:0.95em; color:#8b949e; margin-top:12px;">
+    💡 Verify with <code style="background:#161b22; padding:4px 10px; border-radius:6px; font-size:0.9em;">CertUtil -hashfile Carb.exe SHA256</code> (Windows) or <code style="background:#161b22; padding:4px 10px; border-radius:6px; font-size:0.9em;">sha256sum Carb.exe</code> (Linux)
+  </p>
+</div>
