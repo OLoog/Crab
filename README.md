@@ -98,5 +98,7 @@
     💡 Verify with <code style="background:#161b22; padding:4px 10px; border-radius:6px; font-size:0.9em;">CertUtil -hashfile Crab.exe SHA256</code> (Windows) or <code style="background:#161b22; padding:4px 10px; border-radius:6px; font-size:0.9em;">sha256sum Crab.exe</code> (Linux)
   </p>
 </div>
+
+# TARGET 
 <img width="678" height="452" alt="target" src="https://github.com/user-attachments/assets/040d39ec-cc2b-4dd4-a45c-6bc298e9de32" />
-## 🎯 **TARGET**
+
