@@ -1,4 +1,3 @@
-#![allow(non_snake_case)]
 
 use argon2::{Algorithm, Argon2, Params, Version};
 use rand::Rng;
